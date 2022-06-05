@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-hk">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,6 +16,10 @@
 
 
 
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
 
 
 
@@ -85,7 +89,7 @@
 <meta property="og:url" content="http://example.com/2022/06/04/Prefatio/index.html">
 <meta property="og:site_name" content="好奇心俱樂部">
 <meta property="og:description" content="一些說明和約定；建站期的更新日誌">
-<meta property="og:locale" content="zh_HK">
+<meta property="og:locale">
 <meta property="article:published_time" content="2022-06-04T15:12:46.000Z">
 <meta property="article:modified_time" content="2022-06-04T15:15:25.488Z">
 <meta property="article:author" content="AstraMarisa">
@@ -99,13 +103,13 @@
     root: '',
     scheme: 'Muse',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: '作者'
     },
     algolia: {
       applicationID: '',
@@ -137,7 +141,7 @@
 
 <meta name="generator" content="Hexo 6.0.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-hk">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -186,6 +190,36 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            關於
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分類
           </a>
         </li>
       
@@ -297,7 +331,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
+    <div class="post-body han-init-context" itemprop="articleBody">
 
       
       
@@ -402,7 +436,7 @@
                 <a href="/archives/%20%7C%7C%20archive">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">文章</span>
+                  <span class="site-state-item-name">日誌</span>
                 </a>
               </div>
             
